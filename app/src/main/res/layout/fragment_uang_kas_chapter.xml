@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UangKasChapterFragment"
+    android:background="@color/hitam">
+
+    <Spinner
+        android:id="@+id/dropdown_chapter"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circle_spinner_event"
+        android:popupBackground="@color/kuning"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/uangkasList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/dropdown_chapter"/>
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_create_post"
+        android:background="@drawable/circle_button_create_post"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="Add Uang Kas Chapter" />
+
+</RelativeLayout>

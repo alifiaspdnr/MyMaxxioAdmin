@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="post_levels_array">
+        <item>Nasional</item>
+        <item>Regional</item>
+        <item>Chapter</item>
+    </string-array>
+
+    <string-array name="event_array">
+        <item>Semua Kegiatan</item>
+        <item>Nasional</item>
+        <item>Regional</item>
+        <item>Chapter</item>
+        <item>Kegiatan Usulan (Dalam Review)</item>
+        <item>Kegiatan Usulan (Ditolak)</item>
+    </string-array>
+
+    <string-array name="uangkas_array">
+        <item>Uang Kas Saya</item>
+        <item>Uang Kas Chapter</item>
+    </string-array>
+
+    <string-array name="pengumuman_array">
+        <item>Semua Pengumuman</item>
+        <item>Nasional</item>
+        <item>Regional</item>
+        <item>Chapter</item>
+    </string-array>
+
+    <string-array name="unggahan_keg_array">
+        <item>Perlu Ditinjau</item>
+        <item>Diterima</item>
+        <item>Ditolak</item>
+    </string-array>
+
+    <string-array name="add_pengumuman_array">
+        <item>Nasional</item>
+        <item>Regional</item>
+        <item>Chapter</item>
+    </string-array>
+
+    <string-array name="pengumuman_regional_array">
+        <item>Jakarta Raya</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Timur</item>
+    </string-array>
+
+    <string-array name="pengumuman_chapter_array">
+        <item>Jakarta Raya</item>
+        <item>Debora</item>
+        <item>Surabaya</item>
+    </string-array>
+
+    <string-array name="kas_chapter_array">
+        <item>Jakarta Raya</item>
+        <item>Debora</item>
+        <item>Surabaya</item>
+    </string-array>
+
+    <string-array name="bulan_array">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string-array name="tahun_array">
+        <item>2024</item>
+    </string-array>
+
+    <string-array name="req_event_array">
+        <item>Nasional</item>
+        <item>Regional</item>
+        <item>Chapter</item>
+    </string-array>
+
+    <string-array name="req_event_regional_array">
+        <item>Jakarta Raya</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Timur</item>
+    </string-array>
+
+    <string-array name="req_event_chapter_array">
+        <item>Jakarta Raya</item>
+        <item>Debora</item>
+        <item>Surabaya</item>
+    </string-array>
+</resources>

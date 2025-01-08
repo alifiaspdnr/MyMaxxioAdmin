@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyMaxxioAdmin"
+        tools:targetApi="31">
+        <activity
+            android:name=".EventDitolakDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventDalamReviewDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarUnggahanKegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMemberDitolak"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMemberDitinjau"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMember"
+            android:exported="false" />
+        <activity
+            android:name=".Member"
+            android:exported="false" />
+        <activity
+            android:name=".DetailUangKasDitinjau"
+            android:exported="false" />
+        <activity
+            android:name=".DetailUangKasMember"
+            android:exported="false" />
+        <activity
+            android:name=".DetailUnggahanKegiatanDitolak"
+            android:exported="false" />
+        <activity
+            android:name=".DetailUnggahanKegiatan"
+            android:exported="false" />
+        <activity
+            android:name=".TambahKasMember"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarUangKasMember"
+            android:exported="false" />
+        <activity
+            android:name=".TambahKasChapter"
+            android:exported="false" />
+        <activity
+            android:name=".UangKas"
+            android:exported="false" />
+        <activity
+            android:name=".UnggahanKegiatan"
+            android:exported="true" />
+        <activity
+            android:name=".AddPengumuman"
+            android:exported="false" />
+        <activity
+            android:name=".PengumumanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEvent"
+            android:exported="false" />
+        <activity
+            android:name=".EventDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyMaxxioAdmin" />
+        <activity
+            android:name=".Kegiatan"
+            android:exported="false"
+            android:theme="@style/Theme.MyMaxxioAdmin" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".GantiPassword"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
